@@ -5,9 +5,11 @@ compileAsC99()
 
 set(prov_dev_client_ll_sample_c_files
     prov_dev_client_ll_sample.c
+    provisioning_flow.c
 )
 
 set(prov_dev_client_ll_sample_h_files
+    provisioning_flow.h
 )
 
 IF(WIN32)
